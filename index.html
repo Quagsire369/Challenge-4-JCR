@@ -1,0 +1,47 @@
+ <!-- HTML code for Challenge 4 UO Bootcamp: Code Quiz Challenge  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+</head>
+
+<body>
+  <div id="start-container">
+    <h1>Quiz</h1>
+    <p>Test your knowledge in this quiz!</p>
+    <button id="start-btn">Start</button> <!-- Button to start the quiz -->
+  </div>
+
+  <div id="quiz-container">
+    <div id="timer-container">
+      Time left: <span id="timer"></span> <!-- Timer to display the remaining time -->
+    </div>
+    <h2 id="question"></h2> <!-- Heading to display the current question -->
+    <div id="options"></div> <!-- Container to display the answer options -->
+    <button id="submit-btn">Submit</button> <!-- Button to submit the answer -->
+  </div>
+
+  <div id="result-container">
+    <h2>Quiz Result</h2>
+    <p>Your score: <span id="score"></span></p> <!-- Display the score after completing the quiz -->
+    <div id="initials">
+      <label for="initials-input">Enter your initials:</label>
+      <input type="text" id="initials-input" maxlength="3"> <!-- Input field to enter initials for high score submission -->
+      <button id="save-btn">Save</button> <!-- Button to save the initials and score -->
+    </div>
+  </div>
+
+  <div id="high-score-container">
+    <h2>High Scores</h2>
+    <ol id="high-scores"></ol> <!-- Ordered list to display the high scores -->
+  </div>
+
+  <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+
+</html>
+<!-- Jacob Cole Robertson -->

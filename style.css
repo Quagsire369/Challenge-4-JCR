@@ -1,0 +1,127 @@
+/* CSS code for Challenge 4 UO Bootcamp: Code Quiz Challenge */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f6f9fc; /* Set the background color of the body */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333; /* Set the color of the heading */
+  }
+  
+  /* Containers */
+  #start-container,
+  #quiz-container,
+  #result-container,
+  #high-score-container {
+    margin-top: 20px;
+    background-color: #fff; /* Set the background color of the containers */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Add a box shadow effect */
+    padding: 20px;
+  }
+  
+  #question {
+    font-weight: bold;
+    color: #333; /* Set the color of the question text */
+  }
+  
+  #options {
+    margin-top: 10px;
+  }
+  
+  /* Answer options */
+  .option {
+    display: block;
+    background-color: #f9b565; /* Set the background color of the answer options */
+    color: #fff; /* Set the text color of the answer options */
+    border: none;
+    border-radius: 20px; /* Add rounded corners to the answer options */
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a transition effect for a smooth hover effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow effect */
+  }
+  
+  .option:hover {
+    background-color: #f28705; /* Set the background color when hovering over an answer option */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add an increased box shadow effect on hover */
+  }
+  
+  /* Buttons */
+  #submit-btn,
+  #save-btn {
+    margin-top: 10px;
+    background-color: #f28705; /* Set the background color of the buttons */
+    color: #fff; /* Set the text color of the buttons */
+    border: none;
+    border-radius: 20px; /* Add rounded corners to the buttons */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a transition effect for a smooth hover effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow effect */
+  }
+  
+  #submit-btn:hover,
+  #save-btn:hover {
+    background-color: #de5e02; /* Set the background color when hovering over the buttons */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add an increased box shadow effect on hover */
+  }
+  
+  /* Result and High Score sections */
+  #result-container,
+  #high-score-container {
+    text-align: center;
+    color: #333; /* Set the text color of the sections */
+  }
+  
+  #score {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #initials {
+    margin-top: 20px;
+  }
+  
+  #initials-input {
+    margin-right: 5px;
+  }
+  
+  #save-btn {
+    background-color: #f28705; /* Set the background color of the save button */
+    color: #fff; /* Set the text color of the save button */
+    border: none;
+    border-radius: 20px; /* Add rounded corners to the save button */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a transition effect for a smooth hover effect */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow effect */
+  }
+  
+  #save-btn:hover {
+    background-color: #de5e02; /* Set the background color when hovering over the save button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add an increased box shadow effect on hover */
+  }
+  
+  /* High Score list */
+  #high-scores {
+    list-style: decimal;
+    padding-left: 20px;
+  }
+  
+  /* Timer */
+  #timer-container {
+    text-align: right;
+  }
+  
+  #timer {
+    font-weight: bold;
+    color: #333; /* Set the text color of the timer */
+  }
+
+  /* Jacob Cole Robertson */
